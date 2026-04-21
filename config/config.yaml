@@ -77,6 +77,14 @@ platforms:
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
+    - id: "jin10"
+      name: "金十数据"
+    - id: "zaobao"
+      name: "联合早报"
+    - id: "xueqiu"
+      name: "雪球财经"
+    - id: "cankaoxiaoxi"
+      name: "参考消息"
 
 
 
