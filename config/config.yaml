@@ -135,6 +135,39 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+    - id: "cointelegraph"
+      name: "CoinTelegraph"
+      url: "https://cointelegraph.com/rss"
+
+    - id: "coindesk"
+      name: "CoinDesk"
+      url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+
+    - id: "jinse"
+      name: "金色财经"
+      url: "https://www.jinse.cn/rss"
+
+    - id: "odaily"
+      name: "Odaily星球日报"
+      url: "https://www.odaily.news/rss"
+
+    - id: "blockbeats"
+      name: "律动BlockBeats"
+      url: "https://www.theblockbeats.info/rss"
+
+    - id: "36kr"
+      name: " 36氪快讯"
+      url: "https://rsshub.app/36kr/newsflash"
+
+    - id: "huggingface"
+      name: "Hugging Face Blog"
+      url: "https://huggingface.co/blog/feed.xml"
+
+    - id: "stability"
+      name: "Stability AI Blog"
+      url: "https://huggingface.co/blog/feed.xml"
+
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
