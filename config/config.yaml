@@ -135,29 +135,22 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
-    - id: "cointelegraph"
-      name: "CoinTelegraph"
-      url: "https://cointelegraph.com/rss"
+    # - id: "cointelegraph"
+    #   name: "CoinTelegraph"
+    #   url: "https://cointelegraph.com/rss"
 
-    - id: "coindesk"
-      name: "CoinDesk"
-      url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+    # - id: "coindesk"
+    #   name: "CoinDesk"
+    #   url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
 
-    - id: "jinse"
-      name: "金色财经"
-      url: "https://www.jinse.cn/rss"
-
-    - id: "odaily"
-      name: "Odaily星球日报"
-      url: "https://www.odaily.news/rss"
+    # - id: "odaily"
+    #   name: "Odaily星球日报"
+    #   url: "https://rss.odaily.news/rss/newsflash"
 
     - id: "blockbeats"
       name: "律动BlockBeats"
-      url: "https://www.theblockbeats.info/rss"
+      url: "https://api.theblockbeats.news/v2/rss/all"
 
-    - id: "36kr"
-      name: " 36氪快讯"
-      url: "https://rsshub.app/36kr/newsflash"
 
     - id: "huggingface"
       name: "Hugging Face Blog"
@@ -634,4 +627,4 @@ advanced:
     bark: 4000
     slack: 4000
   batch_send_interval: 3              # 批次发送间隔（秒）
-  feishu_message_separator: "━━━━━━━━━━━━━━━━"
+  feishu_message_separator: "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
