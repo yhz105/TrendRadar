@@ -135,9 +135,9 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
-    # - id: "cointelegraph"
-    #   name: "CoinTelegraph"
-    #   url: "https://cointelegraph.com/rss"
+    - id: "cointelegraph"
+      name: "CoinTelegraph"
+      url: "https://cointelegraph.com/rss"
 
     # - id: "coindesk"
     #   name: "CoinDesk"
@@ -150,7 +150,6 @@ rss:
     - id: "blockbeats"
       name: "律动BlockBeats"
       url: "https://api.theblockbeats.news/v2/rss/all"
-
 
     - id: "huggingface"
       name: "Hugging Face Blog"
