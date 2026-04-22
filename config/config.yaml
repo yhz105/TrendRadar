@@ -448,7 +448,7 @@ ai:
   # 完整列表: https://docs.litellm.ai/docs/providers
   # 如果你对于看英文文档比较头疼，那么可以点击页面右下角的 【Ask AI】 ,用中文询问怎么配置 
   
-  model: "deepseek/deepseek-chat"
+  model: "minimax/MiniMax-M2.7-highspeed"
 
   api_key: ""                       # API Key（建议使用环境变量 AI_API_KEY）
   
@@ -528,7 +528,7 @@ ai_analysis:
   mode: "follow_report"
 
   # 分析内容配置
-  max_news_for_analysis: 150        # 热榜+RSS 合计参与分析的新闻数量上限（控制成本关键项）
+  max_news_for_analysis: 300        # 热榜+RSS 合计参与分析的新闻数量上限（控制成本关键项）
                                     # 热榜优先占用配额，RSS 使用剩余配额；独立展示区不受此限制
                                     # 推送消息顶部会显示实际的 AI 分析数供参考
 
