@@ -135,9 +135,9 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
-    - id: "cointelegraph"
-      name: "CoinTelegraph"
-      url: "https://cointelegraph.com/rss"
+    # - id: "cointelegraph"
+    #   name: "CoinTelegraph"
+    #   url: "https://cointelegraph.com/rss"
 
     # - id: "coindesk"
     #   name: "CoinDesk"
@@ -541,7 +541,7 @@ ai_analysis:
                                       # GitHub Action 部署默认推送约 20 次（每小时推送一次）， 约 0.1 元/天
                                       # Docker 部署默认推送 48 次(每半小时推送一次)， 约 0.2 元/天
 
-  include_rss: false                # 是否包含 RSS 内容进行分析
+  include_rss: true                # 是否包含 RSS 内容进行分析
   
   include_standalone: true          # 是否将独立展示区数据纳入 AI 分析
                                     # 数据源列表来自 display.standalone.platforms / display.standalone.rss_feeds
