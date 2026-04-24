@@ -237,8 +237,8 @@ presets:
     periods:
       morning_briefing:
         name: "到岗速览"
-        start: "09:00"
-        end: "11:00"
+        start: "08:00"
+        end: "10:00"
         analyze: true              # AI 分析当前热点
         ai_mode: "current"         # AI 分析当前榜单
         push: true                 # 到岗后看当前热点
@@ -256,8 +256,8 @@ presets:
 
       closing_summary:
         name: "收工汇总"
-        start: "17:00"
-        end: "19:00"
+        start: "18:00"
+        end: "21:00"
         analyze: true              # AI 做全天汇总分析
         ai_mode: "daily"           # AI 也分析全天内容
         push: true                 # 下班前推送当日完整汇总
@@ -273,10 +273,9 @@ presets:
         report_mode: "incremental" # 增量模式：有新增才推，没有就安静
         once:
           analyze: false           # 不限制分析次数
-          push: true              # 不限制推送次数
+          push: false              # 不限制推送次数
 
     # 工作日使用三段式推送；周末使用增量自由模式
-        analyze: true
     day_plans:
       workday:
         periods: ["morning_briefing", "noon_update", "closing_summary"]
@@ -407,13 +406,13 @@ custom:
   # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   default:
     collect: true                  # 是否采集数据（爬取热榜 + RSS）
-    analyze: true                 # 是否执行 AI 分析
+    analyze: false                 # 是否执行 AI 分析
     ai_mode: "current"            # AI 分析模式:
                                    #   follow_report → 跟随 report_mode
                                    #   daily         → 强制全天汇总
                                    #   current       → 强制当前榜单
                                    #   incremental   → 强制增量模式
-    push: true                    # 是否发送推送通知
+    push: false                    # 是否发送推送通知
     report_mode: "current"         # 报告模式:
                                    #   daily       → 当日所有新闻的汇总
                                    #   current     → 当前在榜的新闻
@@ -462,8 +461,8 @@ custom:
 
     deep_quiet:
       name: "深夜静默"
-      start: "24:00"
-      end: "07:00"                 # 23:00 → 次日 06:00（跨日时间段）
+      start: "23:00"
+      end: "06:00"                 # 23:00 → 次日 06:00（跨日时间段）
       # frequency_file: "xxx.txt"               # 关键词文件（可选，位于 config/custom/keyword/）
       # interests_file: "xxx.txt"                # AI 兴趣文件（可选，位于 config/custom/ai/）
       # filter_method: "keyword"                # 筛选策略（可选: keyword | ai，不填用全局 filter.method）
@@ -496,7 +495,7 @@ custom:
     evening_summary:
       name: "晚间汇总"
       start: "19:00"
-      end: "22:00"
+      end: "21:00"
       # frequency_file: "xxx.txt"               # 关键词文件（可选，位于 config/custom/keyword/）
       # interests_file: "xxx.txt"                # AI 兴趣文件（可选，位于 config/custom/ai/）
       # filter_method: "keyword"                # 筛选策略（可选: keyword | ai，不填用全局 filter.method）
